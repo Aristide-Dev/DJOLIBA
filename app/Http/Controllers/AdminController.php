@@ -56,7 +56,7 @@ class AdminController extends Controller
         $data = [
             'first_name' => $first_name,
             'last_name' => $last_name,
-            'name' => "ArisTech",
+            // 'name' => "ArisTech",
             'email' => $email,
             'telephone' => $telephone,
             'password' => Hash::make($password),
