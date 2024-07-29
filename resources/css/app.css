@@ -1,3 +1,51 @@
+@import 'glightbox/dist/css/glightbox.css';
+@import '@splidejs/splide/dist/css/splide.min.css';
+@import '../assets/dist/css/style.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.splide__slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.audio-title {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.audio-description {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+.audio-control-container {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+audio {
+    width: 100%;
+}
+
+.thumbnail-container {
+    padding: 10px;
+    background: #444444;
+    border-radius: 10px;
+}
+
+.thumbnail-container .audio-title {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
